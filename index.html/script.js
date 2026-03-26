@@ -1,7 +1,7 @@
 
-let cop = Number(prompt("¿Cuantos pesos quieres convertir a dolares?"));
-let dolar = cop * 0.00027
+let dolar = Number(prompt("¿Cuantos pesos quieres convertir a dolares?"));
+let cop = dolar / 0.00027
 
-console.log("En total son ",dolar," dolares")
+console.log("En total son $",cop," pesos")
 
 
