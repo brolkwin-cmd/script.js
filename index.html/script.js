@@ -1,7 +1,8 @@
 
-let lado  = Number(prompt("¿Cuantos centimetros mide un lado del cuadrado?"));
-let perimetro = lado*4;
+let minutos  = Number(prompt("¿Cuantos minutos quieres convertir a segundos?"));
+let segundos = minutos*60;
 
-console.log("En perimetro total del cuadrado es ",perimetro," Cms")
+console.log("El total de segundos es: ",segundos)
+
 
 
