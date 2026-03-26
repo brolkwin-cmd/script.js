@@ -1,8 +1,8 @@
 
-let minutos  = Number(prompt("¿Cuantos minutos quieres convertir a segundos?"));
-let segundos = minutos*60;
+let segundos  = Number(prompt("¿Cuantos segundos quieres convertir a minutos?"));
+let minutos = segundos/60;
 
-console.log("El total de segundos es: ",segundos)
+console.log("El total de minutos es: ",minutos)
 
 
 
