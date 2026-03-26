@@ -1,8 +1,8 @@
 
-let segundos  = Number(prompt("¿Cuantos segundos quieres convertir a minutos?"));
-let minutos = segundos/60;
+let milimetro  = Number(prompt("¿Cuantos milimetros quieres convertir?"));
+let centimetro = milimetro / 10
 
-console.log("El total de minutos es: ",minutos)
+console.log("El  total de centimetros es: ",centimetro)
 
 
 
