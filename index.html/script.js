@@ -1,7 +1,7 @@
 
-let fahrenheit  = Number(prompt("¿Cuantos grados fahrenheit quieres convertir?"));
-let celcius = (fahrenheit - 32) * 0.55555555555;
+let lado  = Number(prompt("¿Cuantos centimetros mide un lado del cuadrado?"));
+let area = lado*lado;
 
-console.log("En total son ",celcius," celcius")
+console.log("En area total es ",area," Cms")
 
 
