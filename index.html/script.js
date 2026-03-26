@@ -1,7 +1,7 @@
 
-let year = Number(prompt("¿Cuantos años tiene tu perro?"));
-let edadHumana = (7 * year) + 31;
+let cop = Number(prompt("¿Cuantos pesos quieres convertir a dolares?"));
+let dolar = cop * 0.00027
 
-console.log("Tu perro tiene ",edadHumana," años")
+console.log("En total son ",dolar," dolares")
 
 
