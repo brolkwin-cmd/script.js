@@ -1,7 +1,7 @@
 
-let celcius = Number(prompt("¿Cuantos grados celcius quieres convertir?"));
-let fahrenheit = (celcius * 1.8) + 32;
+let fahrenheit  = Number(prompt("¿Cuantos grados fahrenheit quieres convertir?"));
+let celcius = (fahrenheit - 32) * 0.55555555555;
 
-console.log("En total son ",fahrenheit," fahrenheit")
+console.log("En total son ",celcius," celcius")
 
 
