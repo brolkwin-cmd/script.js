@@ -1,7 +1,7 @@
 
 let lado  = Number(prompt("¿Cuantos centimetros mide un lado del cuadrado?"));
-let area = lado*lado;
+let perimetro = lado*4;
 
-console.log("En area total es ",area," Cms")
+console.log("En perimetro total del cuadrado es ",perimetro," Cms")
 
 
