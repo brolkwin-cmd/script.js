@@ -38,7 +38,7 @@ else if (operacion == 3) {console.log("Su resultado es" ,numero1*numero2)}
 else {console.log("Su resultado es" , numero1/numero2)}*/
 
 
-let options = ["piedra", "papel", "tijera"];
+/*let options = ["piedra", "papel", "tijera"];
 let azar = Math.floor(Math.random() * 3) + 1; 
 let computer = azar; 
 
@@ -68,4 +68,20 @@ else if (
 
 else {
     console.log("Por favor, ingrese un valor válido: 1, 2 o 3");
+}*/
+
+let numeros = [ 2 , 5 , 7 , 12 , 0 , 17 , 22];
+let pares = []
+let impares = []
+
+for (let i = 0; i < numeros.length; i++) { 
+    
+    if (numeros[i] % 2 === 0) {
+        pares.push(numeros[i]);
+    } else {
+        impares.push(numeros[i]);
+    }
 }
+
+console.log("Los números pares son:", pares);
+console.log("Los números impares son:", impares);
