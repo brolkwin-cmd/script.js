@@ -21,7 +21,7 @@ else console.log (precioProducto * 0.75)*/
 
 
 
-let operacion = (prompt(`¿Que operacion deseas hacer?
+/*let operacion = (prompt(`¿Que operacion deseas hacer?
     
     1 = suma
     2 = resta
@@ -35,8 +35,37 @@ if (operacion == 1){console.log("Su resultado es" , numero1+numero2)}
 
 else if (operacion == 2) {console.log("Su resultado es" , numero1-numero2)}
 else if (operacion == 3) {console.log("Su resultado es" ,numero1*numero2)}
-else {console.log("Su resultado es" , numero1/numero2)}
+else {console.log("Su resultado es" , numero1/numero2)}*/
 
 
+let options = ["piedra", "papel", "tijera"];
+let azar = Math.floor(Math.random() * 3) + 1; 
+let computer = azar; 
 
+let user = Number(prompt(`Ingrese su opción:
+    1 - piedra
+    2 - papel
+    3 - tijera`));
 
+console.log("Computadora: " , options[computer - 1]);
+console.log("Usuario: " , options[user - 1]);
+
+if (computer === user) {
+    console.log("Empate");
+} 
+
+else if (
+    (computer === 1 && user === 2) || (computer === 2 && user === 3) || (computer === 3 && user === 1)
+) {
+    console.log("¡Victoria!");
+} 
+
+else if (
+    (computer === 1 && user === 3) || (computer === 2 && user === 1) ||  (computer === 3 && user === 2)
+) {
+    console.log("Derrota");
+} 
+
+else {
+    console.log("Por favor, ingrese un valor válido: 1, 2 o 3");
+}
